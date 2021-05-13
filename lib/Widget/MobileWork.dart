@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:potrtfolio/Widget/MobileWorkBox.dart';
 
 class MobileWork extends StatefulWidget {
   @override
@@ -78,7 +79,7 @@ class _MobileWorkState extends State<MobileWork> {
                   flex: 4,
                   child: Container(
                     height: size.height * 1.7,
-                    child: MobileWork(),
+                    child: MobileWorkBox(),
                   ))
             ],
           )
